@@ -3,6 +3,6 @@ class Program
 {
     static void Main()
     {
-        soru5.Algoritma();
+        soru9.Algoritma();
     }
 }
