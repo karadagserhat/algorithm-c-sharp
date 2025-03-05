@@ -3,6 +3,7 @@ class Program
 {
     static void Main()
     {
-        soru9.Algoritma();
+        Console.WriteLine(reverseInt.Algoritma2(15));
+        Console.WriteLine(reverseInt.Algoritma2(-90));
     }
 }
