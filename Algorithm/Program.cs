@@ -3,6 +3,11 @@ class Program
 {
     static void Main()
     {
-        vowel.Algoritma2("serhat");
+        var q = new queue<int>();
+        q.Add(1);
+        q.Add(2);
+        q.Add(3);
+        q.Remove();
+        q.Display();
     }
 }
