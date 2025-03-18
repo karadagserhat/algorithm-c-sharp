@@ -8,7 +8,7 @@
 
             foreach (char c in s)
             {
-                if (charMap.ContainsKey(c)) charMap[c]++;
+                if (charMap.TryGetValue(c, out int value)) charMap[c] = ++value;
                 else charMap[c] = 1;
             }
 

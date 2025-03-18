@@ -7,7 +7,7 @@
             // Uzunluklar eşit değilse anagram olamaz
             if (s.Length != t.Length) return false;
 
-            // Karakterleri sıralayıp karşılaştırma yöntemi
+            // Karakterleri sıralayıp karşılaştırma yöntemicd al
             return s.OrderBy(c => c).SequenceEqual(t.OrderBy(c => c));
         }
 
